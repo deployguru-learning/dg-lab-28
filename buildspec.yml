@@ -1,0 +1,20 @@
+version: 0.2
+
+
+phases:
+    install:
+        commands: 
+            - ls
+    pre_install:
+        commands:
+            - ls
+            
+    build:
+        commands:
+            - ls
+            
+    post_build:
+        commands:
+            - ls
+            
+    
