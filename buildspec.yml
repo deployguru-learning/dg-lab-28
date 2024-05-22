@@ -6,7 +6,7 @@ phases:
         commands: 
             - pip install checkov
             
-    pre_install:
+    pre_build:
         commands:
             - ls
             - printenv
@@ -20,4 +20,3 @@ phases:
         commands:
             - ls
             
-    
